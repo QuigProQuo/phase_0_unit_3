@@ -1,0 +1,174 @@
+<!-- unit3_cheatsheet.html -->
+<!-- The goal of my cheatsheet is to eliminate any need for scrolling through endless definitions of each function by clicking on a command from the command index and seeing it rise to the top of the content list -->
+
+
+<html>
+	
+	<head>
+		<title>GIT Cheatsheet</title>
+		
+		<link rel="stylesheet"	type="text/css"	href="unit3_cheatsheet.css"	>
+
+	</head>
+
+	<body id="Cheatsheet">
+		<header>
+			John's Git Cheatsheet
+
+			<ul id="ExternalLinks">
+			<li><a href="https://www.facebook.com/QuigProQuo">Facebook &nbsp</a></li>
+			<li><a href="https://twitter.com/QuigProQuo">Twitter &nbsp</a></li>
+			<li><a href="https://www.linkedin.com/profile/view?id=175450258&trk=nav_responsive_tab_profile">LinkedIn &nbsp</a></li>
+			<li><a href="https://github.com/QuigProQuo">GitHub &nbsp</a></li>
+			<li><a href="https://medium.com/@QuigProQuo">Medium Blog &nbsp</a></li>
+			<li><a href="mailto:johnpeterquigley@gmail.com">Email </a></li>
+			</ul>	
+		</header>
+
+		<div align="center">
+			<table id="CommandIndex">
+				<tr>
+					<th>Command Index</th>
+				</tr>
+				<tr>
+					<td> add	</td>
+					<td> branch	</td>
+					<td> checkout	</td>
+					<td> clone	</td>
+				</tr>
+				<tr>
+					<td> commit	</td>
+					<td> fetch	</td>
+					<td> log	</td>
+					<td> merge	</td>
+				</tr>
+				<tr>
+					<td> pull	</td>
+					<td> push	</td>
+					<td> reset	</td>
+					<td> rm	</td>
+					<td> status	</td>
+				</tr>
+			</table>
+		</div>
+
+		<div id="Content">
+			<dl>
+				<dt> add </dt>
+					<dd>
+						In summary git add, adds file contents to the staging area.	<br>	In Git, you have to add file contents to your staging area before you can commit the, If the file is new, you can run git add to initally add the file to your staging area, but even if the file is alread "tracked" - ie, it was in your last commit- you still need to call git add to add new modifications to your staging area. 
+					</dd><br>
+				<dt> branch	</dt>
+					<dd>
+						In summary git branch, lists, creates and manages working contexts.	<br>	
+						<ol>
+							Git branch commands:
+							<li>git branch 					- list your available branches</li>
+							<li>git branch (branchname) 	- create a new branch</li>
+							<li>git branch -v				- see the last commint on each branch</li>
+						</ol>	
+					</dd>
+				<dt> checkout	</dt>
+					<dd>
+						In summary git checkout, switches to a new branch conext.	<br>		
+						<ol>
+							Git checkout commands:
+							<li>git checkout -b (branchname)	- create and immediately switch to branch</li>
+							<li>git branch -d (branchname)		- delete branch</li>	
+						</ol>
+					</dd>
+				<dt> clone	</dt>
+					<dd>
+						In summary git clone, copies a git repository so you can add to it.	<br>	If you need to collaborate with someone on a project, or if you want to get a copy of a project so you can look at or use the code, you will clone it. <br>
+						<ol>
+							Git clone commands:
+							<li>git clone [url]		- copies a git repository so you can add to it </li>
+						</ol>
+					</dd>
+				<dt> commit	</dt>
+					<dd>
+						In summary git commit, records a snapshot of the staging area.	<br>	Now that you have staged he content you want to snapshot with the git add command, you run git commit to actually record the snapshot. Git records your name and email address with every commit you make, so the first step is to tell Git what these are using git config. <br>	
+						<ol>
+							Git commit commands:
+							<li>git commit </li>
+							<li>git commit -m 			- used to provide the committ message on 	the command line </li>
+							<li>git commit -a 			- automatically stage all tracked, modified files before the commit	</li>
+						</ol>
+					</dd>
+
+				<dt> fetch	</dt>
+					<dd>
+						In summary git fetch, downloads new branches and data from a remote repository.	<br>Git has two commands to update itself from a remote repository. git fetch will synchronize you with another repo, pulling down any data that you do not have locally and giving you bookmarks to where each branch on that remote was when you synchronized. <br> 
+						<ol>
+							Git fetch commands:
+							<li>git fetch 				- downloads new branches and data from a remote repository</li>
+							<li>git fetch [alias]		- fetch specific ones</li>
+							<li>git fetch --all 		- synchronize with all your remotes</li> 
+						</ol>
+					</dd>
+				<dt> log	</dt>
+					<dd> 
+						In summary git log, shows commit histor of a branch.	<br>	To understand the log command, you have to understand what information is stored when you run the git commit command to store a snapshot. In addition to the manifest of files and commit message and information about the person who committed it, Git also stores the commit that you based the snapshot on. <br>	
+						<ol>
+							Git log commands:
+							<li>git log						- show commit history of a branch </li>
+							<li>git log --oneline			- used to see a more compact version of the same history </li>
+							<li>git log --oneline --graph	- used to see when the history was branched and merged </li>	
+						</ol>
+					</dd>
+				
+				<dt> merge	</dt>
+					<dd>
+						In summary git merge, merges a branch context into your current one.	<br>Once you have work isolated in a branch, you will eventually want to incorporate in into your main branch. You can merge any branch into your current branch with the git merge commange.
+					</dd><br>
+				
+				<dt> pull	</dt>
+					<dd>
+						In summary git pull, fetches from a remote repo and try to merge into the current branch. <br>This command will basically run a git fetch immediately followed by a git merge of the branch on that remote that is tracked by whatever branch you are currently in.	
+					</dd><br>
+				
+				<dt> push	</dt>
+					<dd>
+						In summary git push, pushes your new branches and data to a remote repository.	<br>		
+						<ol>
+							Git push commands:
+							<li>git push </li>
+							<li>git push [alias] [branch]				- push your changes to the remote repo. Which will attempt to make your [branch] the new [branch] on the [allias] remote.</li>
+							<li>git push (remote-name) :(branchname)	- delete a remote branch</li>	
+						</ol>
+					</dd>
+				
+				<dt> reset	</dt>
+					<dd>
+						In summary git reset, undo changes and commits.
+					</dd><br>
+				
+				<dt> rm	</dt>
+					<dd>
+						In summary git rm, removes files from the staging area.	<br>This is a bit different from git reset HEAD which "unstages" files. To unstage means it reverts the staging area to what was there before we started modifying things. Git rm just kicks the file off the stage entirely, so that its not included in the next commit snapshot, thereby effectively deleting it <br>
+						<ol>
+							Git rm commands:
+							<li>git rm file 			- removes files from staging area entirely</li>
+							<li>git rm --cached			- leaves the file in the working directory</li>
+						</ol>
+					</dd>
+				<dt> status	</dt>
+					<dd>
+						In summary git status, views the status of your files in the working directory and staging area.	<br>		
+						<ol>
+							Git status commands:
+							<li>git status			- view the status of your files </li>
+							<li>git status -s 		- view short output</li>	
+						</ol>
+					</dd>								
+			</dl>
+		</div>
+
+		
+	</body>
+
+
+
+
+
+</html>
