@@ -89,13 +89,17 @@ end
 # REFLECTION- Include your reflection as a comment below.
 
 How does the sqlite3 gem work?  
+	It can be used to create a database, define tables within it, insert and change rows, run queries and managae an SQLite database file. This program is a single executable file on the host machine. It also serves as an example for writing applications that use the SQLite library.
 
 What is the variable `$db` holding?  
+	It is holding the database
 
 Try to use your knowledge of ruby and OO to decipher this as well 
 as how the `#execute` method works.  Take a stab at explaining the line 
  `$db.execute("SELECT name FROM congress_members WHERE years_in_congress 
    > #{minimum_years}")`.  
+
+   The above statement reads require database execute, select value names from the column congress_members where the number of years in congress id greater than the .... 
 
 Try to explain this as clearly as possible for  your fellow students.  
 If you're having trouble, find someone to pair on this explanation with you.
