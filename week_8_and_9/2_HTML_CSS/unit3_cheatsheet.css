@@ -1,20 +1,74 @@
 /*unit3_cheatsheet.css*/
 
+
+
+head {
+
+}
+
+body{
+
+}
+
+
+
+
+
+/**/
+a:link {color: darkblue;}
+a:visited {color:white;}
+a:hover {color:black;}
+a:active {color:;}
+
+#Links {
+	display: inline;
+}
+
 header {
     text-align: center;
+    background-color: #FF0000;
+	color: black;
+	width: 40pc;
+	height: 80px;
+	margin: 30px;
+	margin-left: 425px;
+	font-size: 18;
+	font: arial;
 }
+
+#CommandIndex {
+	border: 5px black;
+}
+
+table {
+    text-align: center;
+    border: 4px black;
+}
+
 
 li {
     display: ;
 }
 
-ul {
-	display: inline;
+dl {
+border: 4px black;
+text-align: left;
+width: 400px;
+height: 2600px;
+background-color: lightgrey;
+border: 3px solid black;
 }
 
-table {
-    text-align: center;
+dt{
+
+font-weight: bold; 
+
+
+
 }
+
+
+
 
 th {
     text-align: center;
