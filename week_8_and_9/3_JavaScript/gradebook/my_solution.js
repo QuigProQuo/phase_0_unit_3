@@ -22,10 +22,29 @@ var scores = [ [80, 70, 70, 100],
 
 
 
-
 // __________________________________________
 // Write your code below.
 
+var average = function(array) {
+  var x = 0
+  for (i in array) {
+    x += array[i];
+  }
+  return x / array.length
+}
+
+var gradebook = {
+  Josephkey: {textScores: scores[0]}. 
+  Susan: {textScores: scores[0]}.
+  William: {textScores: scores[0]}.
+  Elizabeth: {textScores: scores[0]}.
+  addScore: funtion(name,score){
+    gradebook[name].testScores.push(grade);},
+  }
+  Average;function(get_avg){
+    return average(gradebook[get_avg].testScores)
+  }
+};
 
 
 
@@ -44,7 +63,10 @@ var scores = [ [80, 70, 70, 100],
 // __________________________________________
 // Reflect
 
-
+// JavaScript and me aren't best friends right now...
+// I can see that I will need to continue to practice JS until I get a better understanding of the syntax. 
+// I felt I had to look a lot of things up online
+// I look forward to growing my JS skills
 
 
 

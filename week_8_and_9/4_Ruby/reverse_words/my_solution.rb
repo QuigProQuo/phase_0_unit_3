@@ -7,7 +7,6 @@
 # 2. Pseudocode
 # define random word for the word that will be reversed.
 # write a method that will take a word and then output the reverse of it.
-# end
 
 
 # 3. Initial Solution/ refactor
@@ -31,3 +30,8 @@ p reverse_words("fire") == "erif"
 
 
 # # 5. Reflection 
+=begin
+	This was pretty straight forward. Knowing that there are ruby elements that allow for reversing fairly easy.
+	
+
+=end

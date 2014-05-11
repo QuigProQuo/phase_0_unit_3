@@ -111,3 +111,8 @@ assert {letter_grade == 'B'}
 
 
 # 5. Reflection 
+
+=begin 
+
+This was beyond my understanding. Fortunately there were examples on the web that I found to work effectively.
+I don't know that I would have been able to do this on my own. Rather pairing with Kennedy allowed me to understand anothers solution.

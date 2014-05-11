@@ -43,3 +43,21 @@ Address the questions above in your blog post.
 Link to your blog on the index of your github.io site and sync your changes. 
 
 Share your blog on the google+ community under "Blog Posts!" Read others blogs. What did you like about them? 
+
+
+
+
+<!-- Option #2
+
+  Abstract Sequential Thinkers love the world of theory and abstract thought.
+
+	The biggest struggle I have faced throughout Phase 0 is my own ego. At times I would think "what is the purpose of this assignment? why do I need to do it? I don't see myself gainning any value from it." At this this negative approach to things has caused me to half ass assignments and at other times I've seen myself give +100%  Yet it is this type of thinking that can get me in to trouble. When I don't approach something seriously I begin to lose interest. At other times I find myself going down a rabbit hole, extremely interested in something that I feel can be of great value. I find a lot of this to be a result of the way I think. I am a dreamer and when I can't dream of a purpose for something I refuse to apply myself to the fullest. 
+
+	Fortunately DBC has provided me with the opportunity to explore not just my technical skills but my personal skills. I have explored endless opportunities in to leading myself down a path of sensibility. I found peace with myself where I once found struggle. I have taken an interest in better understand why I do the things I do and looking at alternatives that may prove to be more promising. 
+
+	As I reflect back on these past 9 weeks I feel that in ways I am ill prepared while also feeling like I'm in the best shape I can be going in to Phase 1. Regardless of where I stand I look forward to the challenges that await me at DBC and am grateful to have the opportunity to learn in an environment that has proven to remove any negativity from the equation. I have been privledged to live the life I do and yet I still find myself hungry for something. It is this drive to find out what that hunger really is that has motivated as of lately. I can only hope that what has yet to come will help me satisfy this displeasure and provide me with a better understanding of what it is I want to do in life. 
+
+
+ -->
+
+
