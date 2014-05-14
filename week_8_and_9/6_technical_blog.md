@@ -38,8 +38,21 @@ Share your blog on the google+ community under "Blog Posts!" Read others blogs. 
 
 Post a comment on their community post to start a discussion or give some feedback.  Consider sharing your blog post on Reddit as well.
 
+<!-- Week 9
+Web Application Security
 
+Due to the large amount of information being shared through interactive applications we have seen an increase
+
+
+
+
+
+
+
+
+ -->
 <!-- 
+	Week 8
 	What is Rails?
 
 	While searching for an answer to "What is Rails?" I came across RailsGuides and after having wondered around for awhile throught the documentation and experimenting with setting up a Rails environment I couldn't have been happier to discover RailsGuides. So without further adu, bellow you will find their version of "What is Rails" which I hope can be as helpful for you as it was for me! 
@@ -57,13 +70,9 @@ Post a comment on their community post to start a discussion or give some feedba
 	
 	Their guide goes far beyond the explanation of what rails is and gives you step by step instruction on how to set your own rails environment up. Having been curious I decided to go along and set up the rails framework for a blog application. What caught my attention the most about following their guides was their table which took each File/Folder and told us its Purpose. See Below:
 
-			
 
 	This table does a fine job at teaching you the basic intentions of the Rails framework so much so that I continued to want to learn how our Rails environment would work with our Git environment. Don't want to spoil that experience to much right now! So check back in a few days (when I have more time to go down that rabit hole) and I'll be sure to upload my experience with combining these two environments!
 
 	Rails & Git Source http://ruby.about.com/od/rails3tutorial/ss/Using-Git-With-Ruby-On-Rails.htm
-
-
-
 
  -->
